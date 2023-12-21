@@ -1,0 +1,32 @@
+name: about_me_upduo
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.1 <4.0.0'
+
+dependencies:
+  cached_network_image: ^3.3.0
+  carousel_slider: ^4.2.1
+  cupertino_icons: ^1.0.2
+  flutter:
+    sdk: flutter
+  responsive_builder: ^0.7.0
+  routefly: ^1.0.5
+  url_launcher: ^6.2.1
+  video_player: ^2.8.1
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/
+    - assets/videos/
+  
