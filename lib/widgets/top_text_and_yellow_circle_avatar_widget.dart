@@ -43,31 +43,31 @@ class TopTextAndYellowCircleAvatarWidget extends StatelessWidget {
           )
         : isMediumSize
             ? Padding(
-              padding: const EdgeInsets.only(top: 40, bottom: 40),
-              child: Row(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: [
-                  Container(
-                    alignment: Alignment.center,
-                    child: const Text(text,
-                        style: TextStyle(
-                          color: Colors.black,
-                          fontSize: 70,
-                          fontWeight: FontWeight.bold,
-                          height: 0.9,
-                          wordSpacing: 0.0,
-                        )),
-                  ),
-                  const Padding(
-                    padding: EdgeInsets.only(left: 20, bottom: 20),
-                    child: CircleAvatar(
-                      backgroundImage: AssetImage(assetsImagePath),
-                      radius: 175,
+                padding: const EdgeInsets.only(top: 40, bottom: 40),
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Container(
+                      alignment: Alignment.center,
+                      child: const Text(text,
+                          style: TextStyle(
+                            color: Colors.black,
+                            fontSize: 70,
+                            fontWeight: FontWeight.bold,
+                            height: 0.9,
+                            wordSpacing: 0.0,
+                          )),
                     ),
-                  )
-                ],
-              ),
-            )
+                    const Padding(
+                      padding: EdgeInsets.only(left: 20, bottom: 20),
+                      child: CircleAvatar(
+                        backgroundImage: AssetImage(assetsImagePath),
+                        radius: 175,
+                      ),
+                    )
+                  ],
+                ),
+              )
             : Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [

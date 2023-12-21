@@ -7,52 +7,52 @@ import 'app/topics/topics_page.dart' as a3;
 import 'app/work/work_page.dart' as a4;
 
 List<RouteEntity> get routes => [
-  RouteEntity(
-    key: '/',
-    uri: Uri.parse('/'),
-    routeBuilder: (ctx, settings) => Routefly.defaultRouteBuilder(
-      ctx,
-      settings,
-      const a0.AppPage(),
-    ),
-  ),
-  RouteEntity(
-    key: '/drives',
-    uri: Uri.parse('/drives'),
-    routeBuilder: (ctx, settings) => Routefly.defaultRouteBuilder(
-      ctx,
-      settings,
-      const a1.DrivesPage(),
-    ),
-  ),
-  RouteEntity(
-    key: '/jump',
-    uri: Uri.parse('/jump'),
-    routeBuilder: (ctx, settings) => Routefly.defaultRouteBuilder(
-      ctx,
-      settings,
-      const a2.JumpPage(),
-    ),
-  ),
-  RouteEntity(
-    key: '/topics',
-    uri: Uri.parse('/topics'),
-    routeBuilder: (ctx, settings) => Routefly.defaultRouteBuilder(
-      ctx,
-      settings,
-      const a3.TopicsPage(),
-    ),
-  ),
-  RouteEntity(
-    key: '/work',
-    uri: Uri.parse('/work'),
-    routeBuilder: (ctx, settings) => Routefly.defaultRouteBuilder(
-      ctx,
-      settings,
-      const a4.WorkPage(),
-    ),
-  ),
-];
+      RouteEntity(
+        key: '/',
+        uri: Uri.parse('/'),
+        routeBuilder: (ctx, settings) => Routefly.defaultRouteBuilder(
+          ctx,
+          settings,
+          const a0.AppPage(),
+        ),
+      ),
+      RouteEntity(
+        key: '/drives',
+        uri: Uri.parse('/drives'),
+        routeBuilder: (ctx, settings) => Routefly.defaultRouteBuilder(
+          ctx,
+          settings,
+          const a1.DrivesPage(),
+        ),
+      ),
+      RouteEntity(
+        key: '/jump',
+        uri: Uri.parse('/jump'),
+        routeBuilder: (ctx, settings) => Routefly.defaultRouteBuilder(
+          ctx,
+          settings,
+          const a2.JumpPage(),
+        ),
+      ),
+      RouteEntity(
+        key: '/topics',
+        uri: Uri.parse('/topics'),
+        routeBuilder: (ctx, settings) => Routefly.defaultRouteBuilder(
+          ctx,
+          settings,
+          const a3.TopicsPage(),
+        ),
+      ),
+      RouteEntity(
+        key: '/work',
+        uri: Uri.parse('/work'),
+        routeBuilder: (ctx, settings) => Routefly.defaultRouteBuilder(
+          ctx,
+          settings,
+          const a4.WorkPage(),
+        ),
+      ),
+    ];
 
 const routePaths = (
   path: '/',
