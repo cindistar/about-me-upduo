@@ -114,7 +114,7 @@ class _VideosCarouselWidgetState extends State<PhotosCarouselWidget> {
             ),
           ),
         ),
-        screenSize.width < 800
+        screenSize.width < 900
             ? Container()
             : AspectRatio(
                 aspectRatio: 17 / 8,
