@@ -5,8 +5,8 @@ import 'package:url_launcher/url_launcher.dart';
 
 class ContactInfoWidget extends StatelessWidget {
   const ContactInfoWidget({
-    Key? key,
-  }) : super(key: key);
+    super.key,
+  });
 
   static const Color gradientStartColor = Color.fromARGB(255, 32, 77, 191);
   static const Color gradientEndColor = Color.fromARGB(255, 5, 136, 230);

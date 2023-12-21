@@ -59,10 +59,10 @@ class _VideosScreenWidgetState extends State<VideosScreenWidget> {
 
 class VideoCardWidget extends StatefulWidget {
   const VideoCardWidget({
-    Key? key,
+    super.key,
     required this.assetPath,
     required this.isSelected,
-  }) : super(key: key);
+  });
 
   final String assetPath;
   final bool isSelected;
