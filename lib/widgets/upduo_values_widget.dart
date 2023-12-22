@@ -11,7 +11,7 @@ class UpduoValuesWidget extends StatelessWidget {
 
     const assetsImagePath = "assets/images/upduo_logo.png";
     const upduoValuesText =
-        " Cutting-edge technologies\n Commited to personal growth\n Fosters psychological safety\n Creative + innovative\n High quality code base\n Flexible work arrangements\n Work life balance\n Actively practices inclusion\n";
+        " Psychological safety\n Growth culture\n Diversity, equity, and\n inclusion\n Innovation\n";
 
     return Container(
       margin: isMobile
@@ -50,6 +50,8 @@ class UpduoValuesWidget extends StatelessWidget {
                     ),
           const SizedBox(width: 50),
           Container(
+            margin:
+                isMobile ? const EdgeInsets.only(right: 20) : EdgeInsets.zero,
             alignment: Alignment.center,
             child: isMobile
                 ? const Padding(
