@@ -97,7 +97,7 @@ class DrivesOverlayTextWidget extends StatelessWidget {
     const text = "What\ndrives\nme";
     const normalText = "What drives me";
     const answerText =
-        "Tea, in contrast to the majority of developers (I'm a tea lover), my family, the fear of boredom, and a relentless desire to prove that I can advance at least one milimeter everyday and deal sometimes with the imposter syndrome. I'm driven by passion, curiosity, creativity, a sense of humor, humanity, and humility, making friends with people from around the world, and the occasional indulgence in chocolate.";
+        "Tea, in contrast to the majority of developers (I'm a tea lover), my family, the fear of boredom, and a relentless desire to prove that I can advance at least one milimeter everyday. I'm driven by passion, curiosity, creativity, a sense of humor, humanity, and humility, making friends with people from around the world, and the occasional indulgence in chocolate.";
 
     return SizedBox(
       width: screenSize.width,
